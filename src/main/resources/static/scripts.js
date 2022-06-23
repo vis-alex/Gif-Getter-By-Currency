@@ -1,5 +1,5 @@
 //url относительно хоста. Можно поменять порт в application.properties и всё будет работать.
-const general_url = './gg/';
+const general_url = './alex/vis/';
 
 
 //Отправляет запрос для получения гифки.

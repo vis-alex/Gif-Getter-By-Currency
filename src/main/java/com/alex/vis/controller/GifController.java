@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/gg")
+@RequestMapping("/alex/vis")
 public class GifController {
 
     private ExchangeRatesService exchangeRatesService;
