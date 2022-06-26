@@ -156,7 +156,6 @@ public class OpenExchangeRatesServiceImpl implements ExchangeRatesService {
             result = new BigDecimal(
                     (defaultBaseRate / appBaseRate) * targetRate
             )
-                    .setScale(4, RoundingMode.UP)
                     .doubleValue();
         }
         return result;
