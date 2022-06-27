@@ -17,14 +17,7 @@ java {
 version = '0.0.1'
 mainClassName = 'com.alex.vis.GifGetterByCurrencyApplication'
 
-//task copyJarToRoot {
-//    doLast {
-//        copy {
-//            from './build/libs/gif_giver-0.0.1.jar'
-//            into "./"
-//        }
-//    }
-//}
+
 repositories {
     mavenCentral()
 }
