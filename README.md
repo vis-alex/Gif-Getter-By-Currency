@@ -38,24 +38,24 @@ GET /alex/vis/getgif/{Char Code}
 Запуск .jar:
 ---
 ```
-java -jar gif-getter-by-currency-0.0.1.jar
+java -jar Gif-Getter-By-Currency-0.0.1.jar
 ```
 Docker:
 ---
 Для создания образа Docker перейти в корневую директорию проекта,  
 где лежит фаил Dockerfile:
 ```  
-docker build gif_getter_image:1 .  
+docker build -t kassiopeya/gif_getter_image:latest .  
 ```
 Запуск:
 ```
-docker run -p 8080:8080 gif_getter_image:1
+docker run -p 8080:8080 kassiopeya/gif_getter_image:latest
 ``` 
 Или получить образ с DockerHub:
 ```
-docker pull morozovroman/gif_giver:latest 
+docker pull kassiopeya/gif_getter_image:latest 
 ```
 Запуск:
 ``` 
-docker run -p 8080:8080 --name gifgiver morozovroman/gif_giver:latest
+docker run -p 8080:8080 --name gif_getter kassiopeya/gif_getter_image:latest
 ```

@@ -7,7 +7,7 @@ plugins {
 
 group = 'com.alex.vis'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = '11'
 
 java {
     sourceCompatibility = JavaVersion.VERSION_11
@@ -22,8 +22,8 @@ jar {
     }
 }
 
-version = '0.0.1'
-mainClassName = 'com.alex.vis.GifGetterByCurrencyApplication'
+//version = '0.0.1'
+//mainClassName = 'com.alex.vis.GifGetterByCurrencyApplication'
 
 
 repositories {
